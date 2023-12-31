@@ -116,7 +116,6 @@ function changeLevel() {
             return accumulator + currentValue;
         }, 0);
 
-       // window.location.href = "end.html";
         window.location.href = "end.html?totalTime=" + totalTime;
 
     }
@@ -200,7 +199,6 @@ function checkSudoku() {
     } else {
         changeLevel();
     }
-    changeLevel();
 }
 
 let startTime; // Level başlangıç zamanını tutmak için değişken
